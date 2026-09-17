@@ -1,0 +1,7 @@
+audio_id,file_path,ground_truth_path,subset,duration_s,sample_rate,channels,speaker_count,noise_condition,technical_terms,notes
+vi_clean_01,data/audio/clean_vi/sample_01.wav,data/ground_truth/clean_vi_01.txt,clean_vi,42.5,16000,1,1,clean,"","Giọng đọc tiếng Việt chuẩn, môi trường yên tĩnh studio"
+vi_noisy_01,data/audio/noisy_vi/sample_01.wav,data/ground_truth/noisy_01.txt,noisy_vi,45.0,16000,1,2,typing_chatter_12db,"","Tiếng Việt hội thoại có tiếng gõ phím và tiếng quạt gió phòng họp"
+vi_meeting_01,data/audio/meeting_natural/sample_01.wav,data/ground_truth/meeting_01.txt,meeting_natural,58.2,16000,1,2,mild_overlap,"","Hội thoại tự nhiên không theo kịch bản, có overlap nhẹ giữa 2 người nói"
+vi_cs_01,data/audio/codeswitch_tech/sample_01.wav,data/ground_truth/cs_01.txt,codeswitch_tech,38.5,16000,1,1,clean,"API,JWT,Spring Boot,backend,OAuth2,access token","Cuộc họp kỹ thuật bàn về kiến trúc backend và xác thực API"
+vi_silence_01,data/audio/silence_pause/sample_01.wav,data/ground_truth/silence_01.txt,silence_pause,40.0,16000,1,1,clean,"","Các câu ngắn ngắt quãng bởi khoảng lặng 4s-6s để đo hallucination"
+vi_longform_01,data/audio/longform_meeting/sample_01.wav,data/ground_truth/longform_01.txt,longform_meeting,315.0,16000,1,3,meeting_room_ambient,"","Mini long-form benchmark khoảng 5 phút đánh giá độ trôi ngữ cảnh"

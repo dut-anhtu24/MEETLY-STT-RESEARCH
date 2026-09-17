@@ -1,0 +1,119 @@
+# Danh mục mô hình nhận dạng giọng nói (STT Models Catalog)
+# Cấu hình chứa thông tin kiến trúc, backends hỗ trợ, và cờ trạng thái kiểm thử
+
+models:
+  # --- Họ OpenAI Whisper Chuẩn ---
+  whisper-small:
+    name: "Whisper Small"
+    model_id: "openai/whisper-small"
+    family: "Whisper"
+    architecture: "encoder_decoder"
+    target_languages: ["multi", "vi", "en"]
+    supported_backends: ["transformers", "faster-whisper"]
+    preferred_backend: "faster-whisper"
+    conversion_required: false
+    compatibility_status: "verified"
+    is_smoke_test: false
+    approx_params_m: 244
+    default_precision: "float16"
+
+  whisper-large-v3-turbo:
+    name: "Whisper Large v3 Turbo"
+    model_id: "openai/whisper-large-v3-turbo"
+    family: "Whisper-Turbo"
+    architecture: "encoder_decoder"
+    target_languages: ["multi", "vi", "en"]
+    supported_backends: ["transformers", "faster-whisper"]
+    preferred_backend: "faster-whisper"
+    conversion_required: false
+    compatibility_status: "verified"
+    is_smoke_test: false
+    approx_params_m: 809
+    default_precision: "float16"
+
+  whisper-large-v3:
+    name: "Whisper Large v3"
+    model_id: "openai/whisper-large-v3"
+    family: "Whisper"
+    architecture: "encoder_decoder"
+    target_languages: ["multi", "vi", "en"]
+    supported_backends: ["transformers", "faster-whisper"]
+    preferred_backend: "faster-whisper"
+    conversion_required: false
+    compatibility_status: "verified"
+    is_smoke_test: false
+    approx_params_m: 1550
+    default_precision: "float16"
+
+  # --- Họ PhoWhisper (Chuyên Biệt Tiếng Việt - VinAI) ---
+  phowhisper-small:
+    name: "PhoWhisper Small"
+    model_id: "vinai/PhoWhisper-small"
+    family: "PhoWhisper"
+    architecture: "encoder_decoder"
+    target_languages: ["vi"]
+    supported_backends: ["transformers"]
+    preferred_backend: "transformers"
+    conversion_required: true
+    compatibility_status: "pending_verification"
+    is_smoke_test: false
+    approx_params_m: 244
+    default_precision: "float16"
+
+  phowhisper-medium:
+    name: "PhoWhisper Medium"
+    model_id: "vinai/PhoWhisper-medium"
+    family: "PhoWhisper"
+    architecture: "encoder_decoder"
+    target_languages: ["vi"]
+    supported_backends: ["transformers"]
+    preferred_backend: "transformers"
+    conversion_required: true
+    compatibility_status: "pending_verification"
+    is_smoke_test: false
+    approx_params_m: 769
+    default_precision: "float16"
+
+  phowhisper-large:
+    name: "PhoWhisper Large"
+    model_id: "vinai/PhoWhisper-large"
+    family: "PhoWhisper"
+    architecture: "encoder_decoder"
+    target_languages: ["vi"]
+    supported_backends: ["transformers"]
+    preferred_backend: "transformers"
+    conversion_required: true
+    compatibility_status: "pending_verification"
+    is_smoke_test: false
+    approx_params_m: 1550
+    default_precision: "float16"
+
+  # --- Họ Wav2Vec2 CTC Baseline Tiếng Việt ---
+  wav2vec2-vi-250h:
+    name: "Wav2Vec2 Vietnamese 250h"
+    model_id: "nguyenvulebinh/wav2vec2-base-vietnamese-250h"
+    family: "Wav2Vec2"
+    architecture: "ctc"
+    target_languages: ["vi"]
+    supported_backends: ["transformers"]
+    preferred_backend: "transformers"
+    conversion_required: false
+    compatibility_status: "verified"
+    is_smoke_test: false
+    approx_params_m: 95
+    default_precision: "float32"
+
+  # --- Model Siêu Nhẹ Chỉ Dùng Cho Smoke Test / Unit Test ---
+  whisper-tiny-smoke:
+    name: "Whisper Tiny (Smoke Test Only)"
+    model_id: "openai/whisper-tiny"
+    family: "Whisper"
+    architecture: "encoder_decoder"
+    target_languages: ["multi", "vi", "en"]
+    supported_backends: ["transformers", "faster-whisper"]
+    preferred_backend: "transformers"
+    conversion_required: false
+    compatibility_status: "verified"
+    is_smoke_test: true
+    approx_params_m: 39
+    default_precision: "float32"

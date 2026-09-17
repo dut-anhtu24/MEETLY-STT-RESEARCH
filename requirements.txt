@@ -1,0 +1,26 @@
+# Meetly STT Research Benchmark Framework
+# Danh sách thư viện phụ thuộc cho môi trường nghiên cứu và benchmark
+
+# Core PyTorch & Audio
+torch>=2.0.0
+torchaudio>=2.0.0
+soundfile>=0.12.1
+
+# Speech Recognition & Transformer Backends
+transformers>=4.40.0
+accelerate>=0.28.0
+faster-whisper>=1.0.0
+ctranslate2>=4.0.0
+
+# Hardware & System Profiling
+psutil>=5.9.0
+pynvml>=11.5.0; sys_platform == 'linux' or sys_platform == 'win32'
+
+# Data Processing, Schema & Configuration
+pydantic>=2.5.0
+pyyaml>=6.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Testing & Quality Assurance
+pytest>=7.4.0

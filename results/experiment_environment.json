@@ -1,0 +1,20 @@
+{
+  "environment_id": "dutai_gpu_env_20260917_152811",
+  "timestamp": "2026-09-17T08:28:17.713132+00:00",
+  "os": "Windows 10 (AMD64)",
+  "python_version": "3.12.7",
+  "pytorch_version": "2.13.0+cpu",
+  "transformers_version": "5.15.0",
+  "ctranslate2_version": null,
+  "faster_whisper_version": null,
+  "cuda_available": false,
+  "cuda_version": null,
+  "gpu_id": null,
+  "gpu_name": null,
+  "gpu_total_vram_mb": 0.0,
+  "cpu_model": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+  "cpu_cores": 4,
+  "system_ram_mb": 8058.0,
+  "ffmpeg_version": "not_available",
+  "hf_home": null
+}

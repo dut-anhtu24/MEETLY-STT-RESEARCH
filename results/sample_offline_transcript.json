@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "session_id": "meeting_20260917_tech_sync",
+    "model_id": "openai/whisper-large-v3-turbo",
+    "backend": "faster-whisper",
+    "precision": "float16",
+    "vad_enabled": true,
+    "audio_duration_s": 38.5,
+    "asr_inference_time_s": 2.93,
+    "total_processing_time_s": 3.45,
+    "asr_rtf": 0.076
+  },
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.52,
+      "end": 4.18,
+      "text": "chào các bạn hôm nay team mình sẽ review kiến trúc Meetly",
+      "words": [
+        {
+          "word": "chào",
+          "start": 0.52,
+          "end": 0.85
+        },
+        {
+          "word": "các",
+          "start": 0.88,
+          "end": 1.05
+        },
+        {
+          "word": "bạn",
+          "start": 1.08,
+          "end": 1.32
+        },
+        {
+          "word": "hôm",
+          "start": 1.45,
+          "end": 1.68
+        },
+        {
+          "word": "nay",
+          "start": 1.7,
+          "end": 1.95
+        },
+        {
+          "word": "team",
+          "start": 2.05,
+          "end": 2.35
+        },
+        {
+          "word": "mình",
+          "start": 2.38,
+          "end": 2.65
+        },
+        {
+          "word": "sẽ",
+          "start": 2.68,
+          "end": 2.88
+        },
+        {
+          "word": "review",
+          "start": 2.95,
+          "end": 3.4
+        },
+        {
+          "word": "kiến",
+          "start": 3.45,
+          "end": 3.75
+        },
+        {
+          "word": "trúc",
+          "start": 3.78,
+          "end": 4.02
+        },
+        {
+          "word": "Meetly",
+          "start": 4.05,
+          "end": 4.18
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 5.1,
+      "end": 9.45,
+      "text": "chúng ta tập trung vào API authentication và JWT access token",
+      "words": [
+        {
+          "word": "chúng",
+          "start": 5.1,
+          "end": 5.35
+        },
+        {
+          "word": "ta",
+          "start": 5.38,
+          "end": 5.6
+        },
+        {
+          "word": "tập",
+          "start": 5.65,
+          "end": 5.92
+        },
+        {
+          "word": "trung",
+          "start": 5.95,
+          "end": 6.25
+        },
+        {
+          "word": "vào",
+          "start": 6.28,
+          "end": 6.5
+        },
+        {
+          "word": "API",
+          "start": 6.6,
+          "end": 7.1
+        },
+        {
+          "word": "authentication",
+          "start": 7.15,
+          "end": 7.95
+        },
+        {
+          "word": "và",
+          "start": 8.0,
+          "end": 8.22
+        },
+        {
+          "word": "JWT",
+          "start": 8.28,
+          "end": 8.75
+        },
+        {
+          "word": "access",
+          "start": 8.8,
+          "end": 9.15
+        },
+        {
+          "word": "token",
+          "start": 9.18,
+          "end": 9.45
+        }
+      ]
+    }
+  ],
+  "full_transcript": "chào các bạn hôm nay team mình sẽ review kiến trúc Meetly chúng ta tập trung vào API authentication và JWT access token"
+}

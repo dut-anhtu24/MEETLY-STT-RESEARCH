@@ -1,0 +1,39 @@
+# Cấu hình các Pipeline Trực Tuyến (Streaming Pipelines)
+# Dành cho quy trình: Audio Frames -> Buffer -> VAD/VAC -> Incremental ASR -> LocalAgreement -> Partial/Stable Text
+
+pipelines:
+  # Cấu hình streaming chuẩn tham chiếu
+  streaming_standard_simulation:
+    description: "Mô phỏng streaming tiêu chuẩn với cửa sổ trượt và LocalAgreement"
+    frame_duration_ms: 100
+    step_duration_ms: 500
+    context_window_s: 3.0
+    vad:
+      enabled: true
+      provider: "silero_iterator"
+      threshold: 0.5
+      speech_pad_ms: 100
+    agreement_policy:
+      name: "local_agreement"
+      min_common_prefix_tokens: 2
+      max_uncommitted_seconds: 4.0
+    simulation_modes:
+      - "virtual_clock"
+      - "wall_clock"
+
+  # Cấu hình streaming độ trễ siêu thấp (Low-Latency)
+  streaming_low_latency:
+    description: "Cấu hình ưu tiên độ trễ hiển thị (frame 20ms, step 250ms, context 2.0s)"
+    frame_duration_ms: 20
+    step_duration_ms: 250
+    context_window_s: 2.0
+    vad:
+      enabled: true
+      threshold: 0.5
+    agreement_policy:
+      name: "local_agreement"
+      min_common_prefix_tokens: 1
+      max_uncommitted_seconds: 2.5
+    simulation_modes:
+      - "virtual_clock"
+      - "wall_clock"

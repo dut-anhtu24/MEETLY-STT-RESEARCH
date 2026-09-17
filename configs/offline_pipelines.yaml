@@ -1,0 +1,58 @@
+# Cấu hình các Pipeline Ngoại Tuyến (Offline Pipelines)
+# Dành cho quy trình: Video/Audio -> VAD -> ASR -> Timestamps -> Structured JSON
+
+pipelines:
+  # Pipeline cơ sở: Âm thanh chuẩn hóa -> ASR Transformers
+  offline_baseline_transformers:
+    description: "Baseline pipeline sử dụng HuggingFace Transformers pipeline"
+    backend: "transformers"
+    precision: "float16"
+    use_vad: false
+    word_timestamps: false
+    chunk_length_s: 30
+    batch_size: 1
+
+  # Pipeline tối ưu hóa với faster-whisper (CTranslate2)
+  offline_faster_whisper_fp16:
+    description: "faster-whisper với độ chính xác số học FP16"
+    backend: "faster-whisper"
+    precision: "float16"
+    use_vad: false
+    word_timestamps: true
+    beam_size: 5
+
+  # Pipeline nén lượng tử hóa INT8
+  offline_faster_whisper_int8:
+    description: "faster-whisper lượng tử hóa INT8 (đánh giá trade-off tài nguyên vs độ chính xác)"
+    backend: "faster-whisper"
+    precision: "int8"
+    use_vad: false
+    word_timestamps: true
+    beam_size: 5
+
+  # Pipeline tích hợp Silero VAD phân đoạn tiếng nói
+  offline_faster_whisper_vad_fp16:
+    description: "faster-whisper FP16 tích hợp Silero VAD phân đoạn âm thanh"
+    backend: "faster-whisper"
+    precision: "float16"
+    use_vad: true
+    vad_provider: "silero"
+    vad_threshold: 0.5
+    min_speech_duration_ms: 250
+    min_silence_duration_ms: 2000
+    word_timestamps: true
+    beam_size: 5
+
+  # Pipeline sản xuất đầy đủ bắt đầu từ Video
+  offline_production_candidate:
+    description: "Pipeline đầy đủ từ Video -> Tách Audio -> Silero VAD -> faster-whisper -> JSON"
+    backend: "faster-whisper"
+    precision: "float16"
+    input_type: "video"
+    extract_audio_ffmpeg: true
+    use_vad: true
+    vad_provider: "silero"
+    vad_threshold: 0.5
+    word_timestamps: true
+    beam_size: 5
+    export_format: "structured_json"

@@ -1,0 +1,3 @@
+﻿run_id,environment_id,mode,status,model_id,subset,audio_id,audio_duration_s,wer,cer,term_recall,term_accuracy,inference_time_s,rtf,throughput,delta_vram_mb,delta_ram_mb,avg_cpu_percent,backend,precision
+str_streaming_standard_simulation_vi_clean_01,dutai_gpu_env_20260917_152811,streaming,completed,openai/whisper-small,streaming_pipeline,stream_streaming_standard_simulation_vi_clean_01,2.0,11.4444,12.5161,,,0.329,0.1646,6.07,0.0,0.02,0.0,faster-whisper,float16
+str_streaming_low_latency_vi_clean_01,dutai_gpu_env_20260917_152811,streaming,completed,openai/whisper-small,streaming_pipeline,stream_streaming_low_latency_vi_clean_01,2.0,12.8889,14.1613,,,0.374,0.1868,5.35,0.0,0.03,33.2,faster-whisper,float16

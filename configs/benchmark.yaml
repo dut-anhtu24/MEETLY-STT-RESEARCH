@@ -1,0 +1,41 @@
+# Cấu hình Thực Nghiệm Toàn Cục (Global Benchmark Protocol)
+# Đảm bảo tính nhất quán, công bằng và có khả năng tái lập
+
+protocol:
+  warmup_runs: 1
+  benchmark_runs: 3
+  random_seed: 42
+
+audio:
+  target_sample_rate: 16000
+  target_channels: 1
+  pcm_encoding: "PCM_16"
+
+paths:
+  data_dir: "data"
+  audio_dir: "data/audio"
+  ground_truth_dir: "data/ground_truth"
+  metadata_file: "data/metadata.csv"
+  results_dir: "results"
+  figures_dir: "results/figures"
+  environment_file: "results/experiment_environment.json"
+
+# Danh mục thuật ngữ công nghệ tiếng Anh phục vụ đo lường Code-Switching
+technical_terms:
+  - "API"
+  - "JWT"
+  - "Spring Boot"
+  - "Docker"
+  - "WebRTC"
+  - "backend"
+  - "frontend"
+  - "microservice"
+  - "Kubernetes"
+  - "OAuth2"
+  - "access token"
+  - "refresh token"
+  - "PostgreSQL"
+  - "Kafka"
+  - "Redis"
+  - "RESTful"
+  - "GraphQL"

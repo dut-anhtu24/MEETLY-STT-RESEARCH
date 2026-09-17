@@ -1,0 +1,6 @@
+﻿run_id,environment_id,mode,status,model_id,subset,audio_id,audio_duration_s,wer,cer,term_recall,term_accuracy,inference_time_s,rtf,throughput,delta_vram_mb,delta_ram_mb,avg_cpu_percent,backend,precision
+off_offline_baseline_transformers_vi_clean_01,dutai_gpu_env_20260917_152811,offline,completed,openai/whisper-large-v3-turbo,offline_pipeline,session_vi_clean_01,2.0,1.3333,1.3548,,,0.051,0.0256,39.06,0.0,0.02,0.0,transformers,float16
+off_offline_faster_whisper_fp16_vi_clean_01,dutai_gpu_env_20260917_152811,offline,completed,openai/whisper-large-v3-turbo,offline_pipeline,session_vi_clean_01,2.0,1.3333,1.3548,,,0.052,0.0259,38.59,0.0,0.02,0.0,faster-whisper,float16
+off_offline_faster_whisper_int8_vi_clean_01,dutai_gpu_env_20260917_152811,offline,completed,openai/whisper-large-v3-turbo,offline_pipeline,session_vi_clean_01,2.0,1.3333,1.3548,,,0.054,0.027,37.0,0.0,0.02,0.0,faster-whisper,int8
+off_offline_faster_whisper_vad_fp16_vi_clean_01,dutai_gpu_env_20260917_152811,offline,completed,openai/whisper-large-v3-turbo,offline_pipeline,session_vi_clean_01,2.0,1.3333,1.3548,,,0.052,0.0259,38.59,0.0,0.02,0.0,faster-whisper,float16
+off_offline_production_candidate_vi_clean_01,dutai_gpu_env_20260917_152811,offline,completed,openai/whisper-large-v3-turbo,offline_pipeline,session_vi_clean_01,2.0,1.3333,1.3548,,,0.058,0.029,34.45,0.0,0.02,0.0,faster-whisper,float16
