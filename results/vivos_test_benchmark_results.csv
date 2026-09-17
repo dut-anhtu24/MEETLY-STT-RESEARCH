@@ -1,0 +1,58 @@
+model,backend,precision,audio_id,duration_s,inference_time_s,rtf,wer,cer,ref_norm,hyp_norm
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV01_R180,3.938,0.2964938470395282,0.0753,0.1111,0.0323,bàn chổi sơn bằng bông mềm rất phổ biến,bàn chổi sơn bằng bông miềm rất phổ biến
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV02_R079,4.031,0.17471975192893296,0.0433,0.3333,0.2051,hầu hết nang này có nguồn gốc từ gân cơ chân ngỗng,hầu hết cha này có nguồn gốc từ gơnke chân ngỏng
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV03_R082,3.938,0.16221395204775035,0.0412,0.1667,0.05,ghép cành mai giảo vào thân cổ thụ cho hoa cánh lớn,ghép cành mai gảo vào thân cổ thủ cho hoa cánh lớn
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV04_R063,3.875,0.16310824698302895,0.0421,0.4286,0.1304,cháu sốt nên rẹo rọc suốt đêm,cháu sốc nên rạo rộc suốt đêm
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV05_119,3.938,0.16759349696803838,0.0426,0.1818,0.0882,mà còn bị những bộ mặt lạnh te kia họanh họe,mà còn bị những bộ mặt lạnh tay kia họanh họen
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV06_126,3.938,0.17785693297628313,0.0452,0.2222,0.0938,thậm chí càng giống áo quí nàng càng mốt,thậm chí càng giống áo qúy nàng càng mót
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV07_182,4.031,0.1856055799871683,0.046,0.1429,0.0357,những người hòai nghi nói rằng giữ được vật treo lủng lẳng trên người,những người hòai nghi nói rằng giữ được vật trao lũng lẳng trên người
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV08_129,3.875,0.18284158199094236,0.0472,0.2308,0.0698,nước gỗ trên chiếc đồng hồ đã bắt lên màu gụ bóng lóang,nước gỗ trên chiếc đồng hồ đở bắt lên màu gũ móng lóang
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV09_144,3.938,0.17419487389270216,0.0442,0.1538,0.1143,được cắt từ vỏ chăn bộ đội cũ của các ông bố ra,được cắt từ võ trăng bộ đội cũ của các ông bố ra
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV10_067,3.875,0.1615033890120685,0.0417,0.2727,0.1111,thế nhưng tôi không ân hận khi trở thành đả nữ,thế nhưng tôi không ân hận khi trở thành đã án ngữ
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV11_298,3.906,0.1820120490156114,0.0466,0.0,0.0,chuẩn bị cho ngày khai trương cửa hàng đầu tiên,chuẩn bị cho ngày khai trương cửa hàng đầu tiên
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV12_128,3.969,0.22296939394436777,0.0562,0.0,0.0,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV13_277,3.968,0.20645498693920672,0.052,0.0667,0.0222,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tĩnh,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tỉnh
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV14_283,3.906,0.16439588298089802,0.0421,0.0714,0.0455,ngày xưa các cụ làm bìa sách là minh họa cho cuốn sách đó,ngày xưa các cụ làm bìa sách là minh hại cho cuốn sách đó
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV15_121,3.999,0.16947721398901194,0.0424,0.0833,0.0526,trải dài hàng chục cây số đều thu gọn vào tầm mắt,chải dài hàng chục cây số đều thu gọn vào tầm mắt
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV16_074,3.999,0.17584053799510002,0.044,0.0,0.0,chúng nó yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên,chúng nó yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV17_070,4.031,0.17298810498323292,0.0429,0.0714,0.0227,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy,hà cũng chẳng nhớ mình có nói hay không để cải lại ông ấy
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV18_191,3.999,0.18520664097741246,0.0463,0.0667,0.0408,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị,vị bác sĩ hiền lần ấy có những lý thuyết trồng cây thật thú vị
+Wav2Vec2-vi-250h,transformers,float32,VIVOSDEV19_027,3.999,0.18366109405178577,0.0459,0.0909,0.0227,những biến dạng này thường thấy rõ khi dương vật cương,những biến dạn này thường thấy rõ khi dương vật cương
+Whisper-Small,faster-whisper,int8,VIVOSDEV01_R180,3.938,1.5888528929790482,0.4035,0.2222,0.1935,bàn chổi sơn bằng bông mềm rất phổ biến,bàn trỏi sơn bằng bông mềm gức phổ biến
+Whisper-Small,faster-whisper,int8,VIVOSDEV02_R079,4.031,1.5463428929215297,0.3836,0.3333,0.2564,hầu hết nang này có nguồn gốc từ gân cơ chân ngỗng,hầu hết cha này có gồm gấp từ gân cơ chân ngỏng
+Whisper-Small,faster-whisper,int8,VIVOSDEV03_R082,3.938,1.519300741958432,0.3858,0.0833,0.025,ghép cành mai giảo vào thân cổ thụ cho hoa cánh lớn,gép cành mai giảo vào thân cổ thụ cho hoa cánh lớn
+Whisper-Small,faster-whisper,int8,VIVOSDEV04_R063,3.875,1.5638642630074173,0.4036,0.4286,0.3478,cháu sốt nên rẹo rọc suốt đêm,cháu sóc nhanh rượu rọc suốt đêm
+Whisper-Small,faster-whisper,int8,VIVOSDEV05_119,3.938,1.574870364041999,0.3999,0.5455,0.2059,mà còn bị những bộ mặt lạnh te kia họanh họe,mà còn bị những bồ mặc lãnh tê kia hòan hòe
+Whisper-Small,faster-whisper,int8,VIVOSDEV06_126,3.938,1.57736236799974,0.4005,0.3333,0.125,thậm chí càng giống áo quí nàng càng mốt,hậm chí càng giống áo qúy nàng càng mót
+Whisper-Small,faster-whisper,int8,VIVOSDEV07_182,4.031,1.612671560025774,0.4001,0.1429,0.0357,những người hòai nghi nói rằng giữ được vật treo lủng lẳng trên người,những người hòai nghi nói rằng giữ được vật treo lũng lãng trên người
+Whisper-Small,faster-whisper,int8,VIVOSDEV08_129,3.875,1.6248377619776875,0.4193,0.4615,0.1395,nước gỗ trên chiếc đồng hồ đã bắt lên màu gụ bóng lóang,nước gõ trên chiếc đồng hò để bắt lên màu vụ móng lóan
+Whisper-Small,faster-whisper,int8,VIVOSDEV09_144,3.938,1.5108803380280733,0.3837,0.4615,0.2571,được cắt từ vỏ chăn bộ đội cũ của các ông bố ra,được cắt từ võ trang bộ đọai cụ của các ông bora
+Whisper-Small,faster-whisper,int8,VIVOSDEV10_067,3.875,1.588305940036662,0.4099,0.6364,0.25,thế nhưng tôi không ân hận khi trở thành đả nữ,hãy nhừng côi hông ăn hận khi trở hành đá nữ
+Whisper-Small,faster-whisper,int8,VIVOSDEV11_298,3.906,2.8371274049859494,0.7264,0.1,0.0263,chuẩn bị cho ngày khai trương cửa hàng đầu tiên,chuẩn bị cho ngày khai trương của hàng đầu tiên
+Whisper-Small,faster-whisper,int8,VIVOSDEV12_128,3.969,3.0972839230671525,0.7804,0.0769,0.0667,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó,trong cuộc bỏ phiếu tại hội đồng bảo an 2 ngày trước đó
+Whisper-Small,faster-whisper,int8,VIVOSDEV13_277,3.968,1.6548071670113131,0.417,0.2667,0.1333,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tĩnh,hà nội mở rộng khu vực hầu tay xong hồng nên là khu vực tỉnh
+Whisper-Small,faster-whisper,int8,VIVOSDEV14_283,3.906,1.6364265700103715,0.419,0.3571,0.2273,ngày xưa các cụ làm bìa sách là minh họa cho cuốn sách đó,ngày xưa các cụ làm bề sách làm minh hỏa cho cúng sắp đó
+Whisper-Small,faster-whisper,int8,VIVOSDEV15_121,3.999,1.5784280579537153,0.3947,0.1667,0.1316,trải dài hàng chục cây số đều thu gọn vào tầm mắt,chạy dài hàng chục cây số đều thu gọn vào tấm mắt
+Whisper-Small,faster-whisper,int8,VIVOSDEV16_074,3.999,1.5862596050137654,0.3967,0.0769,0.0435,chúng nó yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên,chúng đã yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên
+Whisper-Small,faster-whisper,int8,VIVOSDEV17_070,4.031,1.546547697042115,0.3837,0.1429,0.0682,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy,ha cũng chẳng nhớ mình có nói hay không để cạ lại ông ấy
+Whisper-Small,faster-whisper,int8,VIVOSDEV18_191,3.999,1.7505871040048078,0.4378,0.1333,0.0612,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị,vị bác sĩ hiện lần ấy có những lý thuyết trồng cây thật thú vị
+Whisper-Small,faster-whisper,int8,VIVOSDEV19_027,3.999,1.4950138319982216,0.3738,0.1818,0.0909,những biến dạng này thường thấy rõ khi dương vật cương,những biến dạng này thường thấy rõ khi duong và cương
+PhoWhisper-Small,transformers,float32,VIVOSDEV01_R180,3.938,4.508367902948521,1.1448,0.1111,0.0323,bàn chổi sơn bằng bông mềm rất phổ biến,bàn chổi sơn bằng bông mịm rất phổ biến
+PhoWhisper-Small,transformers,float32,VIVOSDEV02_R079,4.031,7.689698321046308,1.9076,0.1667,0.1282,hầu hết nang này có nguồn gốc từ gân cơ chân ngỗng,hầu hết cha này có nguồn gốc tự gân cơ chân ngỗng
+PhoWhisper-Small,transformers,float32,VIVOSDEV03_R082,3.938,4.956327322986908,1.2586,0.0833,0.075,ghép cành mai giảo vào thân cổ thụ cho hoa cánh lớn,ghép cành mai dạo vào thân cổ thụ cho hoa cánh lớn
+PhoWhisper-Small,transformers,float32,VIVOSDEV04_R063,3.875,4.154186072992161,1.072,0.1429,0.0435,cháu sốt nên rẹo rọc suốt đêm,cháu sốc nên rẹo rọc suốt đêm
+PhoWhisper-Small,transformers,float32,VIVOSDEV05_119,3.938,4.745271331979893,1.205,0.2727,0.1471,mà còn bị những bộ mặt lạnh te kia họanh họe,mà còn bị những bộ mặt lạnh tay kia hòanh hòa
+PhoWhisper-Small,transformers,float32,VIVOSDEV06_126,3.938,4.425535310991108,1.1238,0.2222,0.0938,thậm chí càng giống áo quí nàng càng mốt,thậm chí càng giống áo qúy nàng càng mót
+PhoWhisper-Small,transformers,float32,VIVOSDEV07_182,4.031,5.444606201024726,1.3507,0.0,0.0,những người hòai nghi nói rằng giữ được vật treo lủng lẳng trên người,những người hòai nghi nói rằng giữ được vật treo lủng lẳng trên người
+PhoWhisper-Small,transformers,float32,VIVOSDEV08_129,3.875,5.453820741968229,1.4074,0.3846,0.1395,nước gỗ trên chiếc đồng hồ đã bắt lên màu gụ bóng lóang,nước gỗ trên chiếc đồng hồ để bắc lên màu vụ mông lóan
+PhoWhisper-Small,transformers,float32,VIVOSDEV09_144,3.938,5.141424600034952,1.3056,0.1538,0.1429,được cắt từ vỏ chăn bộ đội cũ của các ông bố ra,được cắt từ võ trang bộ đội cũ của các ông bố ra
+PhoWhisper-Small,transformers,float32,VIVOSDEV10_067,3.875,4.787434786907397,1.2355,0.0,0.0,thế nhưng tôi không ân hận khi trở thành đả nữ,thế nhưng tôi không ân hận khi trở thành đả nữ
+PhoWhisper-Small,transformers,float32,VIVOSDEV11_298,3.906,4.404447057982907,1.1276,0.0,0.0,chuẩn bị cho ngày khai trương cửa hàng đầu tiên,chuẩn bị cho ngày khai trương cửa hàng đầu tiên
+PhoWhisper-Small,transformers,float32,VIVOSDEV12_128,3.969,6.880435797967948,1.7335,0.0,0.0,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó,trong cuộc bỏ phiếu tại hội đồng bảo an hai ngày trước đó
+PhoWhisper-Small,transformers,float32,VIVOSDEV13_277,3.968,6.760985438013449,1.7039,0.0667,0.0222,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tĩnh,hà nội mở rộng khu vực hồ tây sông hồng nên là khu vực tỉnh
+PhoWhisper-Small,transformers,float32,VIVOSDEV14_283,3.906,5.0405812949175015,1.2905,0.0714,0.0227,ngày xưa các cụ làm bìa sách là minh họa cho cuốn sách đó,ngày xưa các cụ làm bìa sách là minh hỏa cho cuốn sách đó
+PhoWhisper-Small,transformers,float32,VIVOSDEV15_121,3.999,5.037541134050116,1.2597,0.0,0.0,trải dài hàng chục cây số đều thu gọn vào tầm mắt,trải dài hàng chục cây số đều thu gọn vào tầm mắt
+PhoWhisper-Small,transformers,float32,VIVOSDEV16_074,3.999,4.881165063008666,1.2206,0.0769,0.0217,chúng nó yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên,chúng nói yêu nhau rất tự nhiên ghét nhau cũng rất tự nhiên
+PhoWhisper-Small,transformers,float32,VIVOSDEV17_070,4.031,7.1197275579907,1.7662,0.0,0.0,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy,hà cũng chẳng nhớ mình có nói hay không để cãi lại ông ấy
+PhoWhisper-Small,transformers,float32,VIVOSDEV18_191,3.999,6.001997536979616,1.5009,0.0,0.0,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị,vị bác sĩ hiền lành ấy có những lý thuyết trồng cây thật thú vị
+PhoWhisper-Small,transformers,float32,VIVOSDEV19_027,3.999,5.086071397992782,1.2718,0.0,0.0,những biến dạng này thường thấy rõ khi dương vật cương,những biến dạng này thường thấy rõ khi dương vật cương

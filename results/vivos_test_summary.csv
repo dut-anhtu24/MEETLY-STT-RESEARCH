@@ -1,0 +1,4 @@
+Mô Hình,Backend,Precision,WER Trung Bình,CER Trung Bình,RTF Trung Bình,Thông Lượng (Throughput),Tổng thời gian suy luận (s),Tổng thời lượng audio (s),Số mẫu đo
+PhoWhisper-Small,transformers,float32,9.22%,4.57%,1.362,0.7x,102.52s,75.2s,19
+Wav2Vec2-vi-250h,transformers,float32,14.18%,5.99%,0.047,21.4x,3.51s,75.2s,19
+Whisper-Small,faster-whisper,int8,27.11%,14.13%,0.438,2.3x,32.89s,75.2s,19

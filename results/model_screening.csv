@@ -1,8 +1,8 @@
 ﻿run_id,environment_id,mode,status,model_id,subset,audio_id,audio_duration_s,wer,cer,term_recall,term_accuracy,inference_time_s,rtf,throughput,delta_vram_mb,delta_ram_mb,avg_cpu_percent,backend,precision
-scr_whisper_small_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,openai/whisper-small,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.02,0.0101,99.13,0.0,0.02,0.0,faster-whisper,float16
-scr_whisper_large_v3_turbo_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,openai/whisper-large-v3-turbo,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.021,0.0104,95.88,0.0,0.02,0.0,faster-whisper,float16
-scr_whisper_large_v3_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,openai/whisper-large-v3,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.021,0.0103,96.84,0.0,0.02,0.0,faster-whisper,float16
-scr_phowhisper_small_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,vinai/PhoWhisper-small,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.021,0.0104,96.12,0.0,0.02,0.0,transformers,float16
-scr_phowhisper_medium_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,vinai/PhoWhisper-medium,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.02,0.0102,97.88,0.0,0.02,0.0,transformers,float16
-scr_phowhisper_large_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,vinai/PhoWhisper-large,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.02,0.0102,97.72,0.0,0.02,0.0,transformers,float16
-scr_wav2vec2_vietnamese_250h_vi_clean_01,dutai_gpu_env_20260917_152811,screening,completed,nguyenvulebinh/wav2vec2-base-vietnamese-250h,clean_vi,vi_clean_01,2.0,1.3333,1.3548,,,0.021,0.0103,97.43,0.0,0.02,0.0,transformers,float32
+scr_whisper_small_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,openai/whisper-small,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.58,0.0,0.3,0.0,faster-whisper,float16
+scr_whisper_large_v3_turbo_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,openai/whisper-large-v3-turbo,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.5,0.0,0.0,0.0,faster-whisper,float16
+scr_whisper_large_v3_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,openai/whisper-large-v3,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.7,0.0,0.0,0.0,faster-whisper,float16
+scr_phowhisper_small_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,vinai/PhoWhisper-small,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.78,0.0,0.0,0.0,transformers,float16
+scr_phowhisper_medium_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,vinai/PhoWhisper-medium,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.67,0.0,0.0,0.0,transformers,float16
+scr_phowhisper_large_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,vinai/PhoWhisper-large,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.64,0.0,0.0,0.0,transformers,float16
+scr_wav2vec2_vietnamese_250h_VIVOSDEV01_R180,dutai_gpu_env_20260917_170308,screening,completed,nguyenvulebinh/wav2vec2-base-vietnamese-250h,vivos_test,VIVOSDEV01_R180,3.94,1.4444,1.3871,,,0.02,0.0051,195.63,0.0,0.0,0.0,transformers,float32

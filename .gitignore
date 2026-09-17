@@ -1,0 +1,57 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Data & Datasets (audio, transcripts, external datasets)
+data/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.tar.gz
+*.zip
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model Weights and Large Artifacts
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+checkpoints/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+.DS_Store
+Thumbs.db
