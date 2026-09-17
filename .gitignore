@@ -24,6 +24,8 @@ __pycache__/
 htmlcov/
 .mypy_cache/
 .ruff_cache/
+.tox/
+.nox/
 
 # 4. Hugging Face & Bộ nhớ đệm Trọng số Mô hình (Model Weights & Cache)
 # Không commit model weights (hàng trăm MB - vài GB) lên repository Git
@@ -32,14 +34,20 @@ hf_cache/
 models/
 downloaded_models/
 ct2_models/
+checkpoints/
 *.pt
 *.pth
 *.bin
 *.onnx
 *.safetensors
 
-# 5. Tệp Đa phương tiện & Tệp âm thanh/video tạm thời
-# Giữ lại các mẫu fixture nhỏ trong data/audio và data/ground_truth
+# 5. Dữ liệu âm thanh lớn & Tệp nén (Large Audio & Archive Files)
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# 6. Tệp Đa phương tiện tạm thời
 *.mp4
 *.mkv
 *.avi
@@ -50,11 +58,11 @@ extracted_*.wav
 temp/
 tmp/
 
-# 6. Jupyter Notebook Checkpoints
+# 7. Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 *-checkpoint.ipynb
 
-# 7. Cấu hình IDE & Môi trường lập trình
+# 8. Cấu hình IDE & Môi trường lập trình
 .vscode/
 .idea/
 *.swp
@@ -64,11 +72,11 @@ tmp/
 Thumbs.db
 desktop.ini
 
-# 8. Tệp nhật ký & Tệp tạm thời hệ thống
+# 9. Tệp nhật ký & Tệp tạm thời hệ thống
 *.log
 nohup.out
 
-# 9. Bảo mật & Thông tin xác thực (Credentials & Secrets)
+# 10. Bảo mật & Thông tin xác thực (Credentials & Secrets)
 # Tuyệt đối không commit key, token hay mật khẩu
 *.pem
 *.key
