@@ -32,10 +32,10 @@ Trong hệ thống Meetly, bài toán STT không phải là một luồng xử l
 ## 2. Luồng Xử Lý Toàn Trình (Dataflow Pipelines)
 
 ### A. Luồng Xử Lý Ngoại Tuyến (Offline Pipeline)
-Bắt đầu từ file Video thực tế đến file JSON có cấu trúc hoàn chỉnh:
+Bắt đầu từ file Audio thực tế đến file JSON có cấu trúc hoàn chỉnh:
 
 ```text
-[ File Video (.mp4/.mkv) ]
+[ File Audio (.wav/.mp3) ]
        │
        ▼ (FFmpeg Extraction - pcm_s16le, 16kHz, mono)
 [ Audio Chuẩn Hóa 16kHz Mono PCM ]

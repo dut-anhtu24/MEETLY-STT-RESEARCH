@@ -8,25 +8,7 @@ Tài liệu này phân tích chi tiết thông số kiến trúc, hiệu năng t
 
 Dựa trên cấu hình kỹ thuật chuẩn từ OpenAI / Hugging Face:
 
-```text
-Input Audio (16 kHz)
-   │
-   ▼
-Feature Extractor (80 Mel-frequency filterbanks, 25ms window, 10ms hop)
-   │
-   ▼
-Convolutional Stem (2x 1D-Conv layers, GELU, stride=2 -> 4x subsampling)
-   │
-   ▼
-Transformer Encoder (12 Layers, d_model=768, 12 Attention Heads, MLP dim=3072)
-   │
-   ├────────────────────────────────────────┐ (Cross-Attention)
-   ▼                                        ▼
-Transformer Decoder (12 Layers, d_model=768, 12 Attention Heads, MLP dim=3072)
-   │
-   ▼
-Linear Projection Head (vocab_size = 51865) -> Autoregressive Token Generation
-```
+![Whisper Architecture](../asset/whisper_architecture.png)
 
 ### 1.1. Bảng Thông Số Cấu Hình Chi Tiết
 * **Họ mô hình**: OpenAI Whisper (Phiên bản tiêu chuẩn).
